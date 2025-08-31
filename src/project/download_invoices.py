@@ -28,7 +28,7 @@ async def download_single_invoice(session: aiohttp.ClientSession, invoice_data: 
             return None
 
 
-async def download_invoices_parallel(data: List[Dict]):
+async def download_invoices_parallel(data: List[Dict]) -> None:
     """
     Faz download de todas as faturas em paralelo.
     """

@@ -10,7 +10,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-async def main():
+async def main() -> None:
     start_time = time.time()
     logging.info("Iniciando o processo de extração e download de faturas...")
     data = await extract_data()
