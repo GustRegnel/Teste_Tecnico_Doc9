@@ -8,10 +8,6 @@ __pycache__/
 
 
 output/*
-!output/.gitkeep
 
-Results/*
-!Results/.gitkeep
-
-Invoices/*
-!Invoices/.gitkeep
+!output/Invoices/.gitkeep
+!output/Results/.gitkeep
