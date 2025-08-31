@@ -16,15 +16,15 @@ A lógica de negócio foi organizada em três módulos principais:
 Além dos 3 componentes, também temos o main, que realiza a orquestração destes componentes.
 
 Features
-✅ Extração de Dados: Realiza uma requisição à API do site para obter a lista completa de faturas.
+-Extração de Dados: Realiza uma requisição à API do site para obter a lista completa de faturas.
 
-✅ Filtragem Inteligente: Processa apenas as faturas cuja data de vencimento seja igual ou anterior à data atual, conforme especificado no desafio.
+-Filtragem Inteligente: Processa apenas as faturas cuja data de vencimento seja igual ou anterior à data atual, conforme especificado no desafio.
 
-✅ Download Paralelo: Baixa de forma assíncrona e simultânea todas as faturas filtradas, otimizando drasticamente o tempo de execução.
+-Download Paralelo: Baixa de forma assíncrona e simultânea todas as faturas filtradas, otimizando drasticamente o tempo de execução.
 
-✅ Geração de Relatório: Salva os dados extraídos em um arquivo .csv formatado, dentro de uma pasta de resultados.
+-Geração de Relatório: Salva os dados extraídos em um arquivo .csv formatado, dentro de uma pasta de resultados.
 
-✅ Organização: Salva os arquivos de fatura e o relatório CSV em uma estrutura de pastas output/ limpa e organizada.
+-Organização: Salva os arquivos de fatura e o relatório CSV em uma estrutura de pastas output/ limpa e organizada.
 
 Decisões Técnicas e Arquitetura
 Para atender aos critérios de avaliação, especialmente os de performance e qualidade de código, as seguintes decisões foram tomadas:
