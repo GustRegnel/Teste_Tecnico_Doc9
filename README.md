@@ -131,4 +131,4 @@ Para isso utilize o seguinte comando:
 python -m src.main
 
 
-Obrigado!
+Obrigado pela atenção!
