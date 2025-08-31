@@ -54,46 +54,11 @@ Type Hinting: O código utiliza anotações de tipo para melhorar a legibilidade
 
 Manuseio de Caminhos: A biblioteca pathlib foi usada para lidar com caminhos de arquivos de forma moderna e independente de sistema operacional.
 
-Como Configurar e Executar
-Siga os passos abaixo para configurar e executar a aplicação.
-
-Pré-requisitos
-Python 3.8+
-
-Git
-
-Passos
-1. Clone o Repositório:
-
-Bash
-
-git clone https://github.com/GustRegnel/Teste_Tecnico_Doc9.git
-cd Teste_Tecnico_Doc9
-2. Crie e Ative o Ambiente Virtual:
-Bash
-# Para Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Para macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-3. Instale as Dependências:
-
-Bash
-
-(venv) pip install -r requirements.txt
-4. Execute a Aplicação:
-O script deve ser executado como um módulo a partir do diretório raiz para garantir que as importações funcionem corretamente.
-
-Bash
-
-(venv) python -m src.main
-Estrutura de Pastas
+ESTRUTURA DE PASTAS
 O projeto segue uma estrutura de src layout, que é um padrão comum para aplicações Python:
 
 Resultado Esperado
-Após a execução, você verá no terminal os logs de cada etapa do processo. Além disso, a pasta output/ será criada na raiz do projeto com a seguinte estrutura:
+Após a execução, você verá no terminal os logs de cada etapa do processo. Além disso, dentro da pasta output teremos os resultados exibidos da seguinte forma:
 
 output/
 ├── Invoices/
@@ -104,3 +69,62 @@ output/
     └── 25-08-2025_14-30-00.csv
 
 Desenvolvido por Gustavo Regnel.
+
+
+--------------------------------- INSTRUÇÕES PARA CONFIGURAÇÃO E EXECUÇÃO ----------------------------------------------
+
+Siga os passos abaixo para configurar e executar a aplicação.
+
+Pré-requisitos
+Python 3.8+
+
+Git
+
+Passos
+
+
+1. Clone o Repositório:
+
+
+1.1 git clone https://github.com/GustRegnel/Teste_Tecnico_Doc9.git
+
+
+1.2 cd Teste_Tecnico_Doc9
+
+
+2. Crie e Ative o Ambiente Virtual:
+
+
+# Para Windows
+
+
+python -m venv venv
+
+
+venv\Scripts\activate.BAT
+
+
+# Para macOS/Linux
+
+
+python3 -m venv venv
+
+
+source venv/bin/activate
+
+
+3. Instale as Dependências:
+
+
+
+(venv) pip install -r requirements.txt
+
+
+4. Execute a Aplicação:
+O script deve ser executado como um módulo a partir do diretório raiz para garantir que as importações funcionem corretamente.
+
+
+
+(venv) python -m src.main
+
+
