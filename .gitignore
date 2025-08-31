@@ -7,11 +7,11 @@ __pycache__/
 *.pyd
 
 
-output/
-Results/
-*.csv
-*.xlsx
+output/*
+!output/.gitkeep
 
-output/
-Invoices/
-*.jpg
+Results/*
+!Results/.gitkeep
+
+Invoices/*
+!Invoices/.gitkeep
