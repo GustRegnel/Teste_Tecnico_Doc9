@@ -16,7 +16,7 @@ output/*
 
 
 output/Results/*.csv
-output/voices/*.jpg
+output/Invoices/*.jpg
 
 
 !output/Invoices/.gitkeep
