@@ -113,6 +113,9 @@ python3 -m venv venv
 source venv/bin/activate
 
 
+# Instalação e execução
+
+
 3. Instale as Dependências:
 
 
@@ -128,3 +131,4 @@ O script deve ser executado como um módulo a partir do diretório raiz para gar
 (venv) python -m src.main
 
 
+Obrigado!
