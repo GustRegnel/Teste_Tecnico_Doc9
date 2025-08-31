@@ -1,0 +1,17 @@
+venv/
+.env/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+output/
+Results/
+*.csv
+*.xlsx
+
+output/
+Invoices/
+*.jpg
