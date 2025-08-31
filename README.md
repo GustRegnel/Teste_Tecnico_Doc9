@@ -125,6 +125,7 @@ pip install -r requirements.txt
 4. Execute a Aplicação:
 O script deve ser executado como um módulo a partir do diretório raiz para garantir que as importações funcionem corretamente.
 
+Para isso utilize o seguinte comando:
 
 
 python -m src.main
