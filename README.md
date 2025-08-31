@@ -101,7 +101,7 @@ Passos
 python -m venv venv
 
 
-venv\Scripts\activate.BAT
+venv\Scripts\activate.bat
 
 
 # Para macOS/Linux
