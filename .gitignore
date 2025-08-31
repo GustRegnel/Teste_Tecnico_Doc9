@@ -9,5 +9,15 @@ __pycache__/
 
 output/*
 
+
+!output/.gitkeep
+!output/Invoices/
+!output/Results/
+
+
+output/Results/*.csv
+output/voices/*.jpg
+
+
 !output/Invoices/.gitkeep
 !output/Results/.gitkeep

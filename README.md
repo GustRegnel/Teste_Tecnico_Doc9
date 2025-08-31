@@ -13,6 +13,8 @@ A lógica de negócio foi organizada em três módulos principais:
 
 3. write_csv: responsável pela geração do arquivo CSV. Para maior controle, o nome do arquivo é gerado dinamicamente com data e hora, garantindo histórico de execuções.
 
+Além dos 3 componentes, também temos o main, que realiza a orquestração destes componentes.
+
 Features
 ✅ Extração de Dados: Realiza uma requisição à API do site para obter a lista completa de faturas.
 
