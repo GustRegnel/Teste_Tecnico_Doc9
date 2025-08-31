@@ -6,6 +6,9 @@ import logging as logger
 from datetime import datetime
 
 def create_csv(data: List[Dict]) -> None:
+    """
+    Cria um arquivo CSV com os dados extraidos do site do desafio.
+    """
     config.OUTPUT_INVOICES.mkdir(parents=True, exist_ok=True)
     file_name = datetime.now().strftime("%d-%m-%Y_%H-%M-%S") + ".csv"
     column_names = [key for key in data[0].keys() if key != 'duedate_dt']
